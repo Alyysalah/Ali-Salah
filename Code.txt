@@ -1,0 +1,613 @@
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3> 
+                <p>Available for iOS and Android Devices.</p>
+                <div class="app-logo">
+                    <img src="D:\E-Commerce App\Website\logo\appstore.png">
+                    <img src="D:\E-Commerce App\Website\logo\googleplay.png">
+                </div>                
+            </div>
+            <div class="footer-col-2">
+          <img src="D:\E-Commerce App\Website\logo\logo_transparent.png">                
+          <p>Our Goal Is To Make A Successful Services to Satsify Our Customers To Provide Them Their Features They Need In All Careers Of Life.</p>
+            </div> 
+            <div class="footer-col-3">
+                <h3>Useful Links</h3> 
+                <ul>
+                    <li>Vouchers</li>
+                    <li>Blog Post</li>
+                    <li>Refund Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+                  </div>
+                  <div class="footer-col-4">
+                    <h3>Follow us</h3> 
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+        </div>
+        </div> 
+        <hr>
+        <p class="copyright">Copyright 2021 - Ali Salah</p> 
+
+.footer{
+    background: rgb(0, 0, 0);
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.footer p{
+    color: #8a8a8a;
+}
+
+.footer h3{
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1{
+    flex-basis: 30%;
+}
+
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+
+.footer-col-2 img{
+   width: 180px;
+   margin-bottom: 20px;
+} 
+
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+} 
+
+.app-logo{
+    margin-top: 20px;
+}
+
+.app-logo img{
+    width: 140px;
+}
+
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.copyright{
+    text-align: center;
+} 
+
+
+
+
+
+---------------Default------------------- 
+
+
+<div class="row">
+    <div class="col-2">
+     <h1>A Home For All You Need</h1>
+     <p>Welcome to the biggest E-Commerce In The Middle East and Africa.</p> 
+     <a href="" class="btn">Explore Now &#8680;</a>
+    </div>
+    <div class="col-2">
+     <img src="D:\E-Commerce App\Website\logo\big sale.png">
+    </div>
+  </div>
+</div> 
+
+-----------
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background: black;
+    margin:0 .8rem;
+    margin-left: -40px;
+} 
+
+nav{
+    flex: 1;
+    text-align: right;
+} 
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;   
+} 
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+} 
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+} 
+
+p{
+    color: rgb(36, 33, 31);
+} 
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+} 
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} 
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+} 
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+} 
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+} 
+.btn{
+    display: inline-block;
+    background: #ecac36;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;   
+    transition: background 0.5s;
+} 
+.btn:hover{
+    background: #302b17;
+}
+
+.header{
+    background: rgb(0, 0, 0);
+} 
+
+.header .row{
+margin-top: 70px;
+} 
+.categories{
+    margin: 70px 0;
+} 
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin: 30px;
+} 
+.col-3 img{
+    width: 100%;
+} 
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+} 
+
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col-4 img {
+    width: 100%;
+} 
+
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+} 
+
+.title::after{
+    content: '';
+    background: #ff9a3b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+} 
+
+h4{
+    color: #555;
+    font-weight: normal;
+} 
+
+.col-4 p{
+  font-size: 14px;
+} 
+
+.rating .fa{
+   color:#ff9a3b;
+} 
+
+.col-4:hover{
+    transform: translateY(-5px);
+} 
+
+.offer{
+    background: radial-gradient(#fff,#f3d698);
+    margin-top: 80px;
+    padding: 30px 0;   
+} 
+
+.col-2 .offer-img{
+    padding: 50px;
+} 
+
+small{
+    color:#555;
+} 
+
+.testmonial{
+    padding-top: 100px;
+}
+
+.testmonial .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.testmonial .col-3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.testmonial .col-3:hover{
+    transform: translateY(-10px);
+} 
+
+.fa.fa-quote-left{
+    font-size: 34px;
+    color: #ff9a3b;
+}
+
+.col-3 p{
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+}
+
+.testmonial .col-3 h3{
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+}
+
+.brands{
+    margin: 100px auto;
+}
+
+.col-5{
+ width: 160px;
+}
+
+.col-5 img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+} 
+
+.col-5 img:hover{
+    filter: grayscale(0);
+}
+
+.footer{
+    background: rgb(0, 0, 0);
+    position: relative;
+    color: #8a8a8a;
+    padding: 1rem;
+    height: 400px;
+    margin-top: -65px; 
+    margin-left: -170px;
+    margin-right: -160px;
+    clear: both;
+}
+
+.footer p{
+    color: #8a8a8a;
+}
+
+.footer h3{
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+
+.footer-col-1{
+    flex-basis: 30%;
+}
+
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+
+.footer-col-2 img{ 
+   width: 180px;
+   margin-bottom: 20px;
+} 
+
+.footer-col-3, .footer-col-4{
+    flex-basis: 16%;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+} 
+
+.app-logo{
+    margin-top: 20px;
+}
+
+.app-logo img{
+    width: 140px;
+}
+.app-logo-2 img{
+    width: 160px;
+    margin-left: -160px;
+    margin-right: -180px;
+    margin-top: -70px;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 40px 0;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+}
+
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+} 
+select{
+    border: 1px solid #ff9a3b;
+    padding: 5px;
+} 
+
+select:focus{
+    outline: none;
+} 
+
+.page-btn{
+    margin: 0 auto 80px;
+} 
+
+.page-btn span{
+    display: inline-block;
+    border: 1px solid #ff9a3b;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+} 
+
+.page-btn span:hover{
+    background: #ff9a3b;
+    color: #fff;
+}
+
+@media only screen and (max-width: 800px) {
+
+nav ul{
+position: absolute;
+top: 70px;
+left: 0;
+background: #333;
+width: 100%;
+overflow: hidden;
+transition: max-height 0.5s;
+}
+
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+nav ul li a{
+    color: #fff;
+   }
+
+   .menu-icon{
+       display: block;
+       cursor: pointer;
+   }
+} 
+
+@media only screen and (max-width: 600px) {
+    .row{
+        text-align: center;
+    }
+
+    .col-2, .col-3, .col-4{
+     flex-basis: 100%;
+    }
+}
+
+
+-----------Related Products----------------
+
+
+<div class="small-container">
+    <div class="row row-2">
+        <h2>Related Products</h2>
+        <p>View More</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-4">
+    <img src="D:\E-Commerce App\Website\logo\Apple-Watch.jpg">
+    <h4>Apple Watch Series 5</h4> 
+    <div class="rating">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star-o" aria-hidden="true"></i>
+    </div>
+    <p>$350.00</p>
+     </div> 
+     <div class="col-4">
+        <img src="D:\E-Commerce App\Website\logo\lenovo-laptop.jpg">
+        <h4>Lenovo Laptop ThinkPad T450</h4> 
+        <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+        </div>
+        <p>$450.00</p>
+         </div> 
+         <div class="col-4">
+            <img src="D:\E-Commerce App\Website\logo\iphone13 pro max.jpg">
+            <h4>iPhone 13 Pro Max</h4> 
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>$875.00</p>
+             </div> 
+             <div class="col-4">
+                <img src="D:\E-Commerce App\Website\logo\ps5.jpg">
+                <h4>Playstation 5 Digital Edition</h4> 
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>$400.00</p>
+                 </div> 
+                 <div class="col-4">
+                    <img src="D:\E-Commerce App\Website\logo\iphone7plus.jpg">
+                    <h4>iPhone 7 Plus</h4> 
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <p>$200.00</p>
+                     </div> 
+                     <div class="col-4">
+                        <img src="D:\E-Commerce App\Website\logo\Xiaomi.jpg">
+                        <h4>Xiaomi Redmi Note 10 Pro</h4> 
+                        <div class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                        <p>$150.00</p>
+                         </div> 
+                         <div class="col-4">
+                            <img src="D:\E-Commerce App\Website\logo\Sony-TV.jpg">
+                            <h4>Sony Bravia LED Display 40 Inches</h4> 
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                            </div>
+                            <p>$600.00</p>
+                             </div> 
+                             <div class="col-4">
+                                <img src="D:\E-Commerce App\Website\logo\beats.jpg">
+                                <h4>Beats Studio 3 Wireless Headphone</h4> 
+                                <div class="rating">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                </div>
+                                <p>$60.00</p>
+                                </div> 
+                                <div class="page-btn"> 
+                                    <span>1</span>
+                                    <span>2</span>
+                                    <span>3</span>
+                                    <span>4</span>
+                                    <span>&#8594;</span>
+                  </div>
